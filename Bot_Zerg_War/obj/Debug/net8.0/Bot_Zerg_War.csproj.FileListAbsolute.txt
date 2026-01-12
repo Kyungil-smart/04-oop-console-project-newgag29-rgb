@@ -1,0 +1,14 @@
+E:\Bot_Zerg_War\bin\Debug\net8.0\Bot_Zerg_War.exe
+E:\Bot_Zerg_War\bin\Debug\net8.0\Bot_Zerg_War.deps.json
+E:\Bot_Zerg_War\bin\Debug\net8.0\Bot_Zerg_War.runtimeconfig.json
+E:\Bot_Zerg_War\bin\Debug\net8.0\Bot_Zerg_War.dll
+E:\Bot_Zerg_War\bin\Debug\net8.0\Bot_Zerg_War.pdb
+E:\Bot_Zerg_War\obj\Debug\net8.0\Bot_Zerg_War.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bot_Zerg_War\obj\Debug\net8.0\Bot_Zerg_War.AssemblyInfoInputs.cache
+E:\Bot_Zerg_War\obj\Debug\net8.0\Bot_Zerg_War.AssemblyInfo.cs
+E:\Bot_Zerg_War\obj\Debug\net8.0\Bot_Zerg_War.csproj.CoreCompileInputs.cache
+E:\Bot_Zerg_War\obj\Debug\net8.0\Bot_Zerg_War.dll
+E:\Bot_Zerg_War\obj\Debug\net8.0\refint\Bot_Zerg_War.dll
+E:\Bot_Zerg_War\obj\Debug\net8.0\Bot_Zerg_War.pdb
+E:\Bot_Zerg_War\obj\Debug\net8.0\Bot_Zerg_War.genruntimeconfig.cache
+E:\Bot_Zerg_War\obj\Debug\net8.0\ref\Bot_Zerg_War.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Bot_Zerg_War/1.0.0": {
+        "runtime": {
+          "Bot_Zerg_War.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bot_Zerg_War/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
