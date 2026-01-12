@@ -98,3 +98,24 @@ public class Electric_shock_devices : Item
     public override int HP_Bonus { get; set; } = 0;
 }
 
+public class Mysterious_USB: Item
+{
+    public override string Name { get; set; } = "의문의USB";
+    public override string Description { get; set; } = "암시장의 수상한 남자의 시체에서 건져낸 물건";
+    public override string Symbol { get; set; } = "MU";
+    public override string Effect_Description { get; set; } = "ATK + 750, DEF + 750, HP + 750";
+    public override int ATK_Bonus { get; set; } = 750;
+    public override int DEF_Bonus { get; set; } = 750;
+    public override int HP_Bonus { get; set; } = 750;
+}
+
+public class Virex_letter : Item
+{
+    public override string Name { get; set; } = "바이렉스의편지";
+    public override string Description { get; set; } = "바이렉스가 암시장에서 쓸수 있을거라며 건네준 편지";
+    public override string Symbol { get; set; } = "BL";
+    public override string Effect_Description { get; set; } = "추가효과없음 착용 비추";
+    public override int ATK_Bonus { get; set; } = 0;
+    public override int DEF_Bonus { get; set; } = 0;
+    public override int HP_Bonus { get; set; } = 0;
+}

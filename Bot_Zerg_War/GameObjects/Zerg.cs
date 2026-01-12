@@ -484,3 +484,23 @@ public class Shelter_residents: Zerg
 ");
     }
 }
+
+public class UnknownHostiles : Zerg
+{
+    public override string Name { get; set; } = "의문의 괴한들";
+    public override int MAX_HP { get; set; } = 3000;
+    public override int HP { get; set; } = 3000;
+    public override int ATK { get; set; } = 750;
+    public override int DEF { get; set; } = 750;
+    public override void Print()
+    {
+        Console.WriteLine(@"
+   _______      _______      _______
+  |  ###  |    |  ###  |    |  ###  |
+  |  ---  |    |  ---  |    |  ---  |
+   \_____/      \_____/      \_____/
+      ||            ||            ||
+   ___||___      ___||___      ___||___
+  /___||___\    /___||___\    /___||___\");
+    }
+}

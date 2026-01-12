@@ -1,6 +1,6 @@
 ﻿public class Iventory
 {
-    private static ItemSlot[,] Iven_Slot = new ItemSlot[7, 7];
+    public static ItemSlot[,] Iven_Slot = new ItemSlot[7, 7];
     static Vector Click_idx;
     public BOT _bot;
 

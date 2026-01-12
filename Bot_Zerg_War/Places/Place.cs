@@ -64,6 +64,7 @@ public class City_Streets : Place
     public bool first_came = true;
     public bool Black_market_first = true;
     public bool Suspicious_Building_first = true;
+    public bool Mafia_visit = false;
 
     string Cur_Func = "거리첫방문";
     Dictionary<string, All_Stroy.stroy_del> Story_recorder = new();

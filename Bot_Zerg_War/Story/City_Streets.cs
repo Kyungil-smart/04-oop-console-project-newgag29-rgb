@@ -360,26 +360,117 @@ _|____[]____[]____[]____|_
         Console.Clear();
         dialog_18("건물안으로 들어서자 퀘퀘한 냄세가 코를 찔렀다");
         Console.ReadKey(true);
-        dialog_18("");
+        dialog_18("대체 이게 무슨냄세야");
         Console.ReadKey(true);
-        dialog_18("");
+        dialog_18("그때 BOT의 뒤에서 어떤 소리가 들려온다");
         Console.ReadKey(true);
-        dialog_18("");
+        dialog_18("??? : 너가 바이렉스가 보낸 그 사이보그 인가?");
         Console.ReadKey(true);
-        dialog_18("");
+        dialog_18("내가 바이렉스 박사와 관련있는건 맞긴한데? 근데 대체왜??");
         Console.ReadKey(true);
-        dialog_18("");
+        dialog_18("나는 저그하고 싸우는 정의의 편이라고.");
         Console.ReadKey(true);
-        dialog_18("");
+        dialog_18("??? : 그래,, 그렇단 말이지,,? 그럼 죽어라.");
         Console.ReadKey(true);
-        dialog_18("");
+        dialog_18("BOT 아니 잠깐 왜이래 난나쁜사람이 아니라까?!?!");
         Console.ReadKey(true);
-        dialog_18("");
+        dialog_18("의문의 괴환들이 당신을 공격해왔다.");
         Console.ReadKey(true);
+
+        UnknownHostiles unknownHostiles = new UnknownHostiles();
+        Battle_System.Run(bot, unknownHostiles);
+
+        if (bot.HP <= 0)
+        {
+            return "디폴트_도시거리";
+        }
+
+        dialog_18("??? : 젠장,,, 대체왜 이렇게 강한거야??");
+        Console.ReadKey(true);
+        dialog_18("BOT : 너야말로 대체왜 아무잘못도 없는 나를 공격하는거야?!");
+        Console.ReadKey(true);
+        dialog_18("??? : 아무 잘못도 없어?? 푸하하하하");
+        Console.ReadKey(true);
+        dialog_18("BOT : ?? 대체 이게 무슨반응이지?");
+        Console.ReadKey(true);
+        dialog_18("??? : 하긴 너는 모를수도 있겠구나.");
+        Console.ReadKey(true);
+        dialog_18("??? : 에이드리언 K 루시언 바이렉스의 진짜 정체는");
+        Console.ReadKey(true);
+        dialog_18("푸욱!");
+        Console.ReadKey(true);
+        dialog_18("갑자기 어디선가 칼날이 날아와 의문의 남자의 목을 찢어버렷다");
+        Console.ReadKey(true);
+        dialog_18("그 칼날의 정체는 바로 BOT의 복부에서 갑자기 사출된 칼날이였다");
+        Console.ReadKey(true);
+        dialog_18("바이렉스 : 이보게 BOT 괞찮은가??");
+        Console.ReadKey(true);
+        dialog_18("네 박사님 저는 문제없습니다");
+        Console.ReadKey(true);
+        dialog_18("바이렉스 : 당장 메인터넌스 베이로 복귀하게 너는 지금 수리해야할곳이 많아");
+        Console.ReadKey(true);
+        dialog_18("네 알겠습니다!");
+        Console.ReadKey(true);
+        dialog_18("대체 저 남자는 무슨말을 하려했던거지...");
+        Console.ReadKey(true);
+        dialog_18("의문의 USB를 획득하였습니다");
+        Console.ReadKey(true);
+        Mysterious_USB mysterious_USB = new Mysterious_USB();
+        Iventory.Add(mysterious_USB);
+        ((City_Streets)place).Suspicious_Building_first = false;
+
+        return "암시장";
     }
 
     public string Mafia_contact(BOT bot, Place place, Iventory iventory)
     {
+        if (((City_Streets)place).Mafia_visit == true)
+        {
+            Console.Clear();
+            dialog_18("같은 이벤트를 두번볼 필요는 없습니다");
+            return "암시장";
+        }
+        
+        bool is_letter = false;
+        for (int i = 0; i < Iventory.Iven_Slot.GetLength(0); i++)
+        {
+            for (int j = 0; j < Iventory.Iven_Slot.GetLength(2); j++)
+            {
+                if (Iventory.Iven_Slot[j, i].OnTileItem is Virex_letter)
+                {
+                    is_letter = true;
+                }
+            }
+        }
 
+        if (!is_letter)
+        {
+            Console.Clear();
+            dialog_18("마피아들과의 접선을 위해서는 바이렉스의 초대장이 필요합니다");
+            Console.ReadKey(true);
+            return "암시장";
+        }
+        else
+        {
+            Console.Clear();
+            dialog_18("확실히 이건 바이렉스 박사의 필체가 맞군...");
+            Console.ReadKey(true);
+            dialog_18("");
+            Console.ReadKey(true);
+            dialog_18("");
+            Console.ReadKey(true);
+            dialog_18("");
+            Console.ReadKey(true);
+            dialog_18("");
+            Console.ReadKey(true);
+            dialog_18("");
+            Console.ReadKey(true);
+            dialog_18("");
+            Console.ReadKey(true);
+            dialog_18("");
+            Console.ReadKey(true);
+            dialog_18("");
+            Console.ReadKey(true);
+        }
     }
 }
