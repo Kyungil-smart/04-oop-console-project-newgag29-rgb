@@ -1,5 +1,44 @@
 ﻿public partial class All_Stroy
 {
+    public string street_default(BOT bot, Place place, Iventory iventory)
+    {
+        Console.Clear();
+        Console.WriteLine($"당신은 현재위치 {place.Place_name}");
+        Console.WriteLine("거리곳곳은 저그와의 전투로인해 파괴의 흔적들이 남아있고 사람들은 누더기만 걸치고");
+        Console.WriteLine("쥐나 음식물쓰레기를 뒤져먹으며 간신히 연명하고있다.");
+        Console.WriteLine("무엇을 하시겠습니까?");
+        Console.WriteLine("1. 도시를 순찰한다");
+        Console.WriteLine("2. 거리에 있는 사람에게 말을건다");
+        Console.WriteLine("3. 도시안에 있는 저그를 수색 섬멸한다.");
+        Console.WriteLine("4. 암시장으로 향한다");
+        Console.WriteLine("5. 다른장소로 이동한다.");
+
+        while (true)
+        {
+            ConsoleKeyInfo key = Console.ReadKey(true);
+            if ((int)key.KeyChar - '0' == 1)
+            {
+                return "도시순찰";
+            }
+            if ((int)key.KeyChar - '0' == 2)
+            {
+                return "거리시민";
+            }
+            if ((int)key.KeyChar - '0' == 3)
+            {
+                return "저그수치";
+            }
+            if ((int)key.KeyChar - '0' == 4)
+            {
+                return "암시장";
+            }
+            if ((int)key.KeyChar - '0' == 5)
+            {
+                return "나가기";
+            }
+        }
+    }
+
     public string First_street(BOT bot, Place place, Iventory iventory)
     {
         Console.Clear();
@@ -45,44 +84,7 @@ _|____[]____[]____[]____|_
         return "성난군중전투후";
     }
 
-    public string street_default(BOT bot, Place place, Iventory iventory)
-    {
-        Console.Clear();
-        Console.WriteLine($"당신은 현재위치 {place.Place_name}");
-        Console.WriteLine("거리곳곳은 저그와의 전투로인해 파괴의 흔적들이 남아있고 사람들은 누더기만 걸치고");
-        Console.WriteLine("쥐나 음식물쓰레기를 뒤져먹으며 간신히 연명하고있다.");
-        Console.WriteLine("무엇을 하시겠습니까?");
-        Console.WriteLine("1. 도시를 순찰한다");
-        Console.WriteLine("2. 거리에 있는 사람에게 말을건다");
-        Console.WriteLine("3. 도시안에 있는 저그를 수색 섬멸한다.");
-        Console.WriteLine("4. 암시장으로 향한다");
-        Console.WriteLine("5. 다른장소로 이동한다.");
-
-        while (true)
-        {
-            ConsoleKeyInfo key = Console.ReadKey(true);
-            if ((int)key.KeyChar - '0' == 1)
-            {
-                return "도시순찰";
-            }
-            if ((int)key.KeyChar - '0' == 2)
-            {
-                return "거리시민";
-            }
-            if ((int)key.KeyChar - '0' == 3)
-            {
-                return "저그수치";
-            }
-            if ((int)key.KeyChar - '0' == 4)
-            {
-                return "암시장";
-            }
-            if ((int)key.KeyChar - '0' == 5)
-            {
-                return "나가기";
-            }
-        }
-    }
+    
 
     public string street_patrol(BOT bot, Place place, Iventory iventory)
     {
@@ -130,6 +132,34 @@ _|____[]____[]____[]____|_
             return "전투_성난군중";
         }
 
+        dialog_18("도시를 순찰하였다");
+        Console.ReadKey(true);
+        int temp = Master.rand.Next(0, 3);
+        if (temp == 0)
+        {
+            dialog_18("도시를 순찰하다 아이템을 주웠다!");
+            dialog_19("획득한 아이템 : 쇠파이프");
+            Steel_Pipe steel_Pipe = new Steel_Pipe();
+            Iventory.Add(steel_Pipe);
+            Console.ReadKey(true);
+            return "디폴트_도시거리";
+        }
+        if (temp == 1)
+        {
+            dialog_18("도시를 순찰하다 저그와 마주쳣다!");
+            return "저그수치";
+        }
+        if (temp == 2)
+        {
+            dialog_18("도시를 순찰하다 아이템을 주웠다!");
+            dialog_19("획득한 아이템 : 사제폭탄");
+            Homemade_Bomb homemade_Bomb = new Homemade_Bomb();
+            Iventory.Add(homemade_Bomb);
+            Console.ReadKey(true);
+            return "디폴트_도시거리";
+        }
+
+
         return "디폴트_도시거리";
     }
 
@@ -167,5 +197,189 @@ _|____[]____[]____[]____|_
         Console.ReadKey(true);
 
         return "디폴트_도시거리";
+    }
+
+    public string Black_market(BOT bot, Place place, Iventory iventory)
+    {
+        if (((City_Streets)place).Black_market_first == true)
+        {
+            Console.Clear();
+            dialog_18("암시장에 처음 진입하자 마자 그곳에서는 온갖 불법적인 상품들이 거래된다는것을 알 수 있었다 ");
+            Console.ReadKey(true);
+            dialog_18("BOT이 처음와보는 암시장을 두리번 거리고 있을때 한남자가 BOT에게 말을 걸었다");
+            Console.ReadKey(true);
+            dialog_18("의문의 남자 : 아무래도 자네 인간은 아닌거같은데,, 그렇다고 저그도 아닌가?");
+            Console.ReadKey(true);
+            dialog_18("저는 인간입니다 단지 불의의 사고때문에 인간의 신체만으로는 생존이 불가능한 처지에 놓인것 뿐이지요.");
+            Console.ReadKey(true);
+            dialog_18("의문의 남자 : 그것을 바로 인간이 아니라고 하는거라네 하하...");
+            Console.ReadKey(true);
+            dialog_18("의문의 남자 : 그럼 내가 자네에게 하나만 묻지,, 자네눈에는  내가 인간으로 보이는가?");
+            Console.ReadKey(true);
+            dialog_18("네 ???");
+            Console.ReadKey(true);
+            dialog_18("의문의 남자 : 하하 그냥 흘려들으면 되네, ");
+            Console.ReadKey(true);
+            dialog_18("의문의 남자 : 자네,, 바이렉스 박사가 보낸거지??");
+            Console.ReadKey(true);
+            dialog_18("아니 그걸 어떻게???");
+            Console.ReadKey(true);
+            dialog_18("하하,, 다 아는 방법이 있다네,, 이거받도록해");
+            Console.ReadKey(true);
+            dialog_18("암살자의 나이프가 인벤토리에 추가되었다.");
+            Assassin_Knife assassin_Knife = new Assassin_Knife();
+            Iventory.Add(assassin_Knife);
+            Console.ReadKey(true);
+            dialog_18("대체 이건??? ");
+            Console.ReadKey(true);
+            dialog_18("의문의 남자 : 그냥받도록해 좋은거야");
+            Console.ReadKey(true);
+            dialog_18("대체 당신은 누구길레 저한테 이런??");
+            Console.ReadKey(true);
+            dialog_18("언젠가 다시 만나자고"); 
+            ((City_Streets)place).Black_market_first = false;
+            Console.ReadKey(true);
+        }
+
+        Console.Clear();
+
+        Console.WriteLine("암시장은 범죄가 사회부적응자 마약중독자들 같은 끔찍한것들로 넘쳐나고 있었다.. 하지만 가장 최악인것은 없었으니");
+        Console.WriteLine("그것은 바로 저그.");
+        Console.WriteLine("무엇을 하시겠습니까?");
+        Console.WriteLine("1. 상점에 방문한다");
+        Console.WriteLine("2. 수상해보이는 빌딩을 조사한다");
+        Console.WriteLine("3. 마피아와 접선한다.");
+        Console.WriteLine("4. 암시장을 떠난다.");
+
+        while (true)
+        {
+            ConsoleKeyInfo key = Console.ReadKey(true);
+            if ((int)key.KeyChar - '0' == 1)
+            {
+                return "암시장_상점";
+            }
+            if ((int)key.KeyChar - '0' == 2)
+            {
+                return "수상한빌딩";
+            }
+            if ((int)key.KeyChar - '0' == 3)
+            {
+                return "마피아접선";
+            }
+            if ((int)key.KeyChar - '0' == 4)
+            {
+                return "디폴트_도시거리";
+            }
+        }
+    }
+
+    public string Black_market_store(BOT bot, Place place, Iventory iventory)
+    {
+        Console.Clear();
+
+        Console.WriteLine("살게 있으면 사가던가..");
+        Console.WriteLine("1. 밀수권총 : 750G");
+        Console.WriteLine("2. 수상한가루 : 1000G");
+        Console.WriteLine("3. 전기충격기 : 600G.");
+        Console.WriteLine("4. 이전단계로");
+
+        while (true)
+        {
+            ConsoleKeyInfo key = Console.ReadKey(true);
+            if ((int)key.KeyChar - '0' == 1)
+            {
+                if(bot.GOLD > 750)
+                {
+                    dialog_18("밀수권총을 구매하셨습니다.");
+                    bot.GOLD -= 750;
+                    Smuggled_pistols smuggled_Pistols = new();
+                    Iventory.Add(smuggled_Pistols);
+                    Console.ReadKey(true);
+                    return "암시장_상점";
+                }
+                else
+                {
+                    dialog_18("돈이 없서요 ㅠㅠ.");
+                    Console.ReadKey(true);
+                    return "암시장_상점";
+                }
+            }
+            if ((int)key.KeyChar - '0' == 2)
+            {
+                if (bot.GOLD > 1000)
+                {
+                    dialog_18("수상한 가루를 구매하셨습니다.");
+                    bot.GOLD -= 1000;
+                    Suspicious_powder suspicious_Powder = new();
+                    Iventory.Add(suspicious_Powder);
+                    Console.ReadKey(true);
+                    return "암시장_상점";
+                }
+                else
+                {
+                    dialog_18("돈이 없서요 ㅠㅠ.");
+                    Console.ReadKey(true);
+                    return "암시장_상점";
+                }
+            }
+            if ((int)key.KeyChar - '0' == 3)
+            {
+                if (bot.GOLD > 600)
+                {
+                    dialog_18("전기충격기를 구매하셨습니다.");
+                    bot.GOLD -= 600;
+                    Electric_shock_devices electric_Shock_Devices = new();
+                    Iventory.Add(electric_Shock_Devices);
+                    Console.ReadKey(true);
+                    return "암시장_상점";
+                }
+                else
+                {
+                    dialog_18("돈이 없서요 ㅠㅠ.");
+                    Console.ReadKey(true);
+                    return "암시장_상점";
+                }
+            }
+            if ((int)key.KeyChar - '0' == 4)
+            {
+                return "암시장";
+            }
+        }
+    }
+
+    public string Suspicious_Building(BOT bot, Place place, Iventory iventory)
+    {
+        if (((City_Streets)place).Suspicious_Building_first == false)
+        {
+            Console.Clear();
+            dialog_18("이미한번본 이벤트를 다시 볼 필요는 없습니다");
+            Console.ReadKey(true);
+            return "암시장";
+        }
+
+        Console.Clear();
+        dialog_18("건물안으로 들어서자 퀘퀘한 냄세가 코를 찔렀다");
+        Console.ReadKey(true);
+        dialog_18("");
+        Console.ReadKey(true);
+        dialog_18("");
+        Console.ReadKey(true);
+        dialog_18("");
+        Console.ReadKey(true);
+        dialog_18("");
+        Console.ReadKey(true);
+        dialog_18("");
+        Console.ReadKey(true);
+        dialog_18("");
+        Console.ReadKey(true);
+        dialog_18("");
+        Console.ReadKey(true);
+        dialog_18("");
+        Console.ReadKey(true);
+    }
+
+    public string Mafia_contact(BOT bot, Place place, Iventory iventory)
+    {
+
     }
 }

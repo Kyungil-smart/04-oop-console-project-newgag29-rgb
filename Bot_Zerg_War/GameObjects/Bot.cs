@@ -5,8 +5,8 @@ public class BOT
 {
     public int CurPos { get; set; }
     public string Name { get; set; } = "BOT";
-    public int MAX_HP { get; set; } = 250;
     public int HP { get; set; } = 250;
+    public int GOLD { get; set; } = 0;
     
     private int _ATK  = 10;
 
@@ -51,6 +51,29 @@ public class BOT
         set
         {
             _DEF = value;
+        }
+    }
+
+    public int _MAX_HP { get; set; } = 250;
+
+    public int MAX_HP
+    {
+        get
+        {
+            int temp = 0;
+            if (equipped_Weapon[0] != null) { temp += equipped_Weapon[0].HP_Bonus; }
+            if (equipped_Weapon[1] != null) { temp += equipped_Weapon[1].HP_Bonus; }
+            if (equipped_Weapon[2] != null) { temp += equipped_Weapon[2].HP_Bonus; }
+            if (equipped_Weapon[3] != null) { temp += equipped_Weapon[3].HP_Bonus; }
+            if (equipped_Weapon[4] != null) { temp += equipped_Weapon[4].HP_Bonus; }
+            if (equipped_Weapon[5] != null) { temp += equipped_Weapon[5].HP_Bonus; }
+
+            return _MAX_HP + temp;
+        }
+
+        set
+        {
+            _MAX_HP = value;
         }
     }
 

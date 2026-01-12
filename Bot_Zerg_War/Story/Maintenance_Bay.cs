@@ -53,7 +53,7 @@
         dialog_18("Dr. 바이렉스 : 내가 자네를 수리해주거나 메인터넌스를 통한 업그레이드를 시켜주도록하지");
         Console.ReadKey(true);
 
-        return "선택화면";
+        return "디폴트_메인터넌스";
     }
 
     public string Maintenance_Bay_Option(BOT bot, Place place, Iventory iventory)
@@ -62,6 +62,9 @@
         Print_BYREX();
         dialog_18("Dr. 바이렉스 : 그래서 무엇을 할텐가?");
         dialog_19("1. 메인터넌스베이를 나간다 / 2. 닥터 바이렉스와 대화한다 / 3.인벤토리를 정비한다.");
+        dialog_22($"현재 HP : {bot.HP}/{bot.MAX_HP}");
+        dialog_23($"현재 ATK : {bot.ATK}");
+        dialog_24($"현재 DEF : {bot.DEF}");
         while (true)
         {
             ConsoleKeyInfo key = Console.ReadKey();
@@ -86,6 +89,9 @@
         Print_BYREX();
         dialog_18("Dr. 바이렉스 : 그래 무엇을 도와줄까?");
         dialog_19("1. 메인터넌스를 받는다 / 2. 장비를 교체한다 / 3.바이렉스와 대화한다 / 4. 그만둔다");
+        dialog_22($"현재 HP : {bot.HP}/{bot.MAX_HP}");
+        dialog_23($"현재 ATK : {bot.ATK}");
+        dialog_24($"현재 DEF : {bot.DEF}");
         while (true)
         {
             ConsoleKeyInfo key = Console.ReadKey(true);
@@ -106,7 +112,7 @@
             }
             if ((int)key.KeyChar - '0' == 4)
             {
-                return "인벤토리";
+                return "디폴트_메인터넌스";
             }
         }
     }
@@ -119,15 +125,15 @@
 
         if (bot.equipped_Weapon[0] != null) { Console.WriteLine($"1번부품 : {bot.equipped_Weapon[0].Name}  / 효과 : {bot.equipped_Weapon[0].Effect_Description}"); }
         else { Console.WriteLine($"1번부품 : 비었음"); }
-        if (bot.equipped_Weapon[1] != null) { Console.WriteLine($"1번부품 : {bot.equipped_Weapon[1].Name}  / 효과 : {bot.equipped_Weapon[1].Effect_Description}"); }
+        if (bot.equipped_Weapon[1] != null) { Console.WriteLine($"2번부품 : {bot.equipped_Weapon[1].Name}  / 효과 : {bot.equipped_Weapon[1].Effect_Description}"); }
         else { Console.WriteLine($"2번부품 : 비었음"); }
-        if (bot.equipped_Weapon[2] != null) { Console.WriteLine($"1번부품 : {bot.equipped_Weapon[2].Name}  / 효과 : {bot.equipped_Weapon[2].Effect_Description}"); }
+        if (bot.equipped_Weapon[2] != null) { Console.WriteLine($"3번부품 : {bot.equipped_Weapon[2].Name}  / 효과 : {bot.equipped_Weapon[2].Effect_Description}"); }
         else { Console.WriteLine($"3번부품 : 비었음"); }
-        if (bot.equipped_Weapon[3] != null) { Console.WriteLine($"1번부품 : {bot.equipped_Weapon[3].Name}  / 효과 : {bot.equipped_Weapon[3].Effect_Description}"); }
+        if (bot.equipped_Weapon[3] != null) { Console.WriteLine($"4번부품 : {bot.equipped_Weapon[3].Name}  / 효과 : {bot.equipped_Weapon[3].Effect_Description}"); }
         else { Console.WriteLine($"4번부품 : 비었음"); }
-        if (bot.equipped_Weapon[4] != null) { Console.WriteLine($"1번부품 : {bot.equipped_Weapon[4].Name}  / 효과 : {bot.equipped_Weapon[4].Effect_Description}"); }
+        if (bot.equipped_Weapon[4] != null) { Console.WriteLine($"5번부품 : {bot.equipped_Weapon[4].Name}  / 효과 : {bot.equipped_Weapon[4].Effect_Description}"); }
         else { Console.WriteLine($"5번부품 : 비었음"); }
-        if (bot.equipped_Weapon[5] != null) { Console.WriteLine($"1번부품 : {bot.equipped_Weapon[5].Name}  / 효과 : {bot.equipped_Weapon[5].Effect_Description}"); }
+        if (bot.equipped_Weapon[5] != null) { Console.WriteLine($"6번부품 : {bot.equipped_Weapon[5].Name}  / 효과 : {bot.equipped_Weapon[5].Effect_Description}"); }
         else { Console.WriteLine($"6번부품 : 비었음"); }
 
 

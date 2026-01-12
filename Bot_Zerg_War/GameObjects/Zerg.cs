@@ -466,3 +466,21 @@ public class Viper : Zerg
     }
 }
 
+//===============================================================이하 엑스트라======================================================================
+
+public class Shelter_residents: Zerg
+{
+    public override string Name { get; set; } = "쉘터주민들";
+    public override int MAX_HP { get; set; } = 500;
+    public override int HP { get; set; } = 500;
+    public override int ATK { get; set; } = 50;
+    public override int DEF { get; set; } = 50;
+    public override void Print()
+    {
+        Console.WriteLine(@"
+(ಠ益ಠ) (ಠ益ಠ) (ಠ益ಠ)
+   /|_\   /|_\   /|_\
+  /_| |_\/_| |_\/_| |_\
+");
+    }
+}

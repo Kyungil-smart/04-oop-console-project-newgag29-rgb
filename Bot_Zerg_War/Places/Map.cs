@@ -31,7 +31,7 @@ static class Initialization
         Maintenance_Bay maintenance_Bay = new("메인터넌스 베이", story, iventory);
         City_Streets city_Streets = new("도시 거리", story, iventory);
         Abandoned_Subway_Station abandoned_Subway_Station = new("버려진 지하철역", story, iventory);
-        Industrial_Zone industrial_Zone = new("노후화된 산업구역", story, iventory);
+        Industrial_Zone industrial_Zone = new("파괴된 산업구역", story, iventory);
         Infested_District infested_District = new("감염된 거리", story, iventory);
         Zerg_Nest zerg_Nest = new("저그의 둥지", story, iventory);
         Blacksite blacksite = new("비공개 구역", story, iventory);

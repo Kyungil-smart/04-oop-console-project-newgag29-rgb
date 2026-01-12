@@ -46,8 +46,16 @@
                 ConsoleKeyInfo key = Console.ReadKey(true);
                 if ((int)key.KeyChar - '0' == 1)
                 {
+                    if ( bot.ATK - zerg.DEF < 0)
+                    {
+                        dialog_15($"공격이 적중했습니다 데미지 : 0 ");
+                        Console.ReadKey(true);
+                        break;
+                    }
+
                     dialog_15($"공격이 적중했습니다 데미지 : {bot.ATK - zerg.DEF} ");
                     zerg.HP -= bot.ATK - zerg.DEF;
+
                     Console.ReadKey(true);
                     break;
                 }
@@ -75,21 +83,38 @@
 
             if (DEF_UP == true)
             {
-                dialog_15($"{zerg.Name} 로부터 {zerg.ATK - bot.DEF * 2}의 데미지를 받았습니다");
-                bot.HP -= zerg.ATK - bot.DEF * 2;
-                DEF_UP = false;
-                Console.ReadKey(true);
+                if (zerg.ATK - bot.DEF * 2 < 0)
+                {
+                    dialog_15($"{zerg.Name} 로부터 0의 데미지를 받았습니다");
+                    DEF_UP = false;
+                    Console.ReadKey(true);
+                }
+                else
+                {
+                    dialog_15($"{zerg.Name} 로부터 {zerg.ATK - bot.DEF * 2}의 데미지를 받았습니다");
+                    bot.HP -= zerg.ATK - bot.DEF * 2;
+                    DEF_UP = false;
+                    Console.ReadKey(true);
+                }
             }
             else
             {
-                dialog_15($"{zerg.Name} 로부터 {zerg.ATK - bot.DEF}의 데미지를 받았습니다");
-                bot.HP -= zerg.ATK - bot.DEF;
-                Console.ReadKey(true);
+                if (zerg.ATK - bot.DEF < 0)
+                {
+                    dialog_15($"{zerg.Name} 로부터 0의 데미지를 받았습니다");
+                    Console.ReadKey(true);
+                }
+                else
+                {
+                    dialog_15($"{zerg.Name} 로부터 {zerg.ATK - bot.DEF}의 데미지를 받았습니다");
+                    bot.HP -= zerg.ATK - bot.DEF;
+                    Console.ReadKey(true);
+                }
             }
 
             if (bot.HP <= 0)
             {
-                dialog_15("전투불능 상태까지 기체가 훼손되었습니다 메인터넌스베이에서 부활합니다");
+                dialog_15("전투불능 상태까지 기체가 훼손되었습니다.");
                 Console.ReadKey(true);
                 return;
             }
