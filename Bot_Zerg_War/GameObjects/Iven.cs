@@ -186,6 +186,22 @@
             }
         }
     }
+    public static void Remove<T>() where T : Item
+    {
+        for (int y = 0; y < Iven_Slot.GetLength(0); y++)
+        {
+            for (int x = 0; x < Iven_Slot.GetLength(1); x++)
+            {
+                if (Iven_Slot[y, x].OnTileItem is T)
+                {
+                    Iven_Slot[y, x].OnTileItem = null;
+                    return;
+                }
+            }
+        }
+    }
+
+    
 }
 
 public struct ItemSlot

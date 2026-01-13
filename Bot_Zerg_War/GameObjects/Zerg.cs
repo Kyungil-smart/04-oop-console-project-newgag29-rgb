@@ -504,3 +504,92 @@ public class UnknownHostiles : Zerg
   /___||___\    /___||___\    /___||___\");
     }
 }
+
+public class ToxicSwarm : Zerg
+{
+    public override string Name { get; set; } = "독성 괴저그떼무리";
+    public override int MAX_HP { get; set; } = 6500;
+    public override int HP { get; set; } = 6500;
+    public override int ATK { get; set; } = 1250;
+    public override int DEF { get; set; } = 1250;
+    public override void Print()
+    {
+        Console.WriteLine(@"
+      (x_x)~   (O_O)~   (x_x)~
+     (O_O)~   (x_x)~   (O_O)~
+  (x_x)~   (O_O)~   (x_x)~   (O_O)~
+
+      /|#\     /|#\     /|#\
+     / |#\    / |#\    / |#\
+      / \      / \      / \
+
+  ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~
+");
+    }
+}
+
+public class Aberration : Zerg
+{
+    public override string Name { get; set; } = "변형체";
+    public override int MAX_HP { get; set; } = 22500;
+    public override int HP { get; set; } = 22500;
+    public override int ATK { get; set; } = 3175;
+    public override int DEF { get; set; } = 1557;
+    public override void Print()
+    {
+        Console.WriteLine(@"
+       .-""-.
+      .'  _    '.
+     |   (○)      |
+      \     __   /
+        '-._||_.-'
+        ___||___
+   .-.-'    ||    '-.-.
+  |    .----||----.     |
+   '-._'----||----'_..-'
+        '-.__||__.'
+             \\
+              '-._");
+    }
+}
+
+public class Torrasque : Zerg
+{
+    public override string Name { get; set; } = "토라스크";
+    public override int MAX_HP { get; set; } = 55341;
+    public override int HP { get; set; } = 55341;
+    public override int ATK { get; set; } = 12000;
+    public override int DEF { get; set; } = 5500;
+    public override void Print()
+    {
+        Console.WriteLine(@"
+  ___====>--------------------.
+ /  _.-'   ___        ___      \
+|.-'      .-'   '-. .-'   '-.    |
+||        |   (##)  X  (##)   |   |
+||         '-.____.-' '-.____.-'  |
+||      ___        ___        ___/
+ \__..-'   '-.__.-'   '-.__.-'
+");
+    }
+}
+
+public class Toxic_Mucosa: Zerg
+{
+    public override string Name { get; set; } = "독성점막";
+    public override int MAX_HP { get; set; } = 22222;
+    public override int HP { get; set; } = 22222;
+    public override int ATK { get; set; } = 666;
+    public override int DEF { get; set; } = 6666;
+    public override void Print()
+    {
+        Console.WriteLine(@"
+☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣
+==[  x  ]===[===☢ CORE ☢===]====[  x  ]==
+~~~~~\____/~~~~~~~|||~~~~~~~\____/~~~~~
+☠☠☠   ==>>==>>==>>|||<<==<<==<<==   ☠☠☠
+~~~~~/_==_\~~~~~~~|||~~~~~~~/_==_\~~~~~
+==[  x  ]===[===☣ ACID ☣===]====[  x  ]==
+☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣☣");
+    }
+}

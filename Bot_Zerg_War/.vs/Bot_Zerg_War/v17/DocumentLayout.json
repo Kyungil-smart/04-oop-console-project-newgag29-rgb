@@ -11,60 +11,12 @@
       "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:places\\place.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\abandoned_subway_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\abandoned_subway_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\_main_scence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\_main_scence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\zergs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\zergs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\zerg_nest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\zerg_nest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\smartcity_controlgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\smartcity_controlgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\gameobjects\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:gameobjects\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\gameobjects\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:gameobjects\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\gameobjects\\iven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:gameobjects\\iven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\gameobjects\\zerg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:gameobjects\\zerg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\collapsed_bridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\collapsed_bridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\skyway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\skyway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\infested_district.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\infested_district.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\industrial_zone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\industrial_zone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\blacksite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\blacksite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\infested_district.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\infested_district.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\places\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,8 +27,56 @@
       "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\maintenance_bay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\abandoned_subway_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\abandoned_subway_station.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\blacksite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\blacksite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\zergs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\zergs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\collapsed_bridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\collapsed_bridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\gameobjects\\zerg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:gameobjects\\zerg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\gameobjects\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:gameobjects\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\system\\battle_system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:system\\battle_system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\_main_scence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\_main_scence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\smartcity_controlgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\smartcity_controlgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\zerg_nest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\zerg_nest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\gameobjects\\iven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:gameobjects\\iven.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\story\\skyway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:story\\skyway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\gameobjects\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|solutionrelative:gameobjects\\bot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DF08D61-6902-4A0F-BA36-2073CF05044C}|Bot_Zerg_War.csproj|e:\\bot_zerg_war\\system\\text_ex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -112,8 +112,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Industrial_Zone.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Industrial_Zone.cs",
+              "RelativeDocumentMoniker": "Story\\Industrial_Zone.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Industrial_Zone.cs",
+              "RelativeToolTip": "Story\\Industrial_Zone.cs",
+              "ViewState": "AgIAAPYAAAAAAAAAAAAqwAkBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:58:09.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Zergs.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Zergs.cs",
+              "RelativeDocumentMoniker": "Story\\Zergs.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Zergs.cs",
+              "RelativeToolTip": "Story\\Zergs.cs",
+              "ViewState": "AgIAAIwCAAAAAAAAAAAUwJ8CAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T15:02:14.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Abandoned_Subway_Station.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Abandoned_Subway_Station.cs",
+              "RelativeDocumentMoniker": "Story\\Abandoned_Subway_Station.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Abandoned_Subway_Station.cs",
+              "RelativeToolTip": "Story\\Abandoned_Subway_Station.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwJkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:52:36.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Infested_District.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Infested_District.cs",
+              "RelativeDocumentMoniker": "Story\\Infested_District.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Infested_District.cs",
+              "RelativeToolTip": "Story\\Infested_District.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:58:19.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Collapsed_Bridge.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Collapsed_Bridge.cs",
+              "RelativeDocumentMoniker": "Story\\Collapsed_Bridge.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Collapsed_Bridge.cs",
+              "RelativeToolTip": "Story\\Collapsed_Bridge.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:58:55.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Blacksite.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Blacksite.cs",
+              "RelativeDocumentMoniker": "Story\\Blacksite.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Blacksite.cs",
+              "RelativeToolTip": "Story\\Blacksite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:53:31.675Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -122,126 +194,9 @@
               "RelativeDocumentMoniker": "Story\\City_Streets.cs",
               "ToolTip": "E:\\Bot_Zerg_War\\Story\\City_Streets.cs",
               "RelativeToolTip": "Story\\City_Streets.cs",
-              "ViewState": "AgIAALQBAAAAAAAAAAAUwMcBAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwFcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-11T13:57:36.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Iven.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\GameObjects\\Iven.cs",
-              "RelativeDocumentMoniker": "GameObjects\\Iven.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\GameObjects\\Iven.cs",
-              "RelativeToolTip": "GameObjects\\Iven.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T07:55:05.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SmartCity_ControlGrid.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\SmartCity_ControlGrid.cs",
-              "RelativeDocumentMoniker": "Story\\SmartCity_ControlGrid.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\Story\\SmartCity_ControlGrid.cs",
-              "RelativeToolTip": "Story\\SmartCity_ControlGrid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T13:55:19.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Zerg_Nest.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Zerg_Nest.cs",
-              "RelativeDocumentMoniker": "Story\\Zerg_Nest.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Zerg_Nest.cs",
-              "RelativeToolTip": "Story\\Zerg_Nest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T13:58:32.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Zerg.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\GameObjects\\Zerg.cs",
-              "RelativeDocumentMoniker": "GameObjects\\Zerg.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\GameObjects\\Zerg.cs",
-              "RelativeToolTip": "GameObjects\\Zerg.cs",
-              "ViewState": "AgIAANoBAAAAAAAAAAA3wOcBAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T10:18:34.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Item.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\GameObjects\\Item.cs",
-              "RelativeDocumentMoniker": "GameObjects\\Item.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\GameObjects\\Item.cs",
-              "RelativeToolTip": "GameObjects\\Item.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAA1wG8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T07:16:52.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Bot.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\GameObjects\\Bot.cs",
-              "RelativeDocumentMoniker": "GameObjects\\Bot.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\GameObjects\\Bot.cs",
-              "RelativeToolTip": "GameObjects\\Bot.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwDoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T02:14:38.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Zergs.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Zergs.cs",
-              "RelativeDocumentMoniker": "Story\\Zergs.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Zergs.cs",
-              "RelativeToolTip": "Story\\Zergs.cs",
-              "ViewState": "AgIAALUCAAAAAAAAAAAiwPsCAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T15:02:14.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Main_Scence.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\_Main_Scence.cs",
-              "RelativeDocumentMoniker": "Story\\_Main_Scence.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\Story\\_Main_Scence.cs",
-              "RelativeToolTip": "Story\\_Main_Scence.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAkwIAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T08:49:39.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Abandoned_Subway_Station.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Abandoned_Subway_Station.cs",
-              "RelativeDocumentMoniker": "Story\\Abandoned_Subway_Station.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Abandoned_Subway_Station.cs",
-              "RelativeToolTip": "Story\\Abandoned_Subway_Station.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAIwEAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T13:52:36.079Z",
               "EditorCaption": ""
             },
             {
@@ -252,114 +207,141 @@
               "RelativeDocumentMoniker": "Places\\Place.cs",
               "ToolTip": "E:\\Bot_Zerg_War\\Places\\Place.cs",
               "RelativeToolTip": "Places\\Place.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAwEIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAwFIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T02:14:51.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T02:14:51.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Collapsed_Bridge.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Collapsed_Bridge.cs",
-              "RelativeDocumentMoniker": "Story\\Collapsed_Bridge.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Collapsed_Bridge.cs",
-              "RelativeToolTip": "Story\\Collapsed_Bridge.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T13:58:55.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Skyway.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Skyway.cs",
-              "RelativeDocumentMoniker": "Story\\Skyway.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Skyway.cs",
-              "RelativeToolTip": "Story\\Skyway.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T13:58:45.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Infested_District.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Infested_District.cs",
-              "RelativeDocumentMoniker": "Story\\Infested_District.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Infested_District.cs",
-              "RelativeToolTip": "Story\\Infested_District.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T13:58:19.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Industrial_Zone.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Industrial_Zone.cs",
-              "RelativeDocumentMoniker": "Story\\Industrial_Zone.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Industrial_Zone.cs",
-              "RelativeToolTip": "Story\\Industrial_Zone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T13:58:09.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Blacksite.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Blacksite.cs",
-              "RelativeDocumentMoniker": "Story\\Blacksite.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Blacksite.cs",
-              "RelativeToolTip": "Story\\Blacksite.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T13:53:31.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Map.cs",
-              "DocumentMoniker": "E:\\Bot_Zerg_War\\Places\\Map.cs",
-              "RelativeDocumentMoniker": "Places\\Map.cs",
-              "ToolTip": "E:\\Bot_Zerg_War\\Places\\Map.cs",
-              "RelativeToolTip": "Places\\Map.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAuwCEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T08:19:53.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 5,
               "Title": "Maintenance_Bay.cs",
               "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Maintenance_Bay.cs",
               "RelativeDocumentMoniker": "Story\\Maintenance_Bay.cs",
               "ToolTip": "E:\\Bot_Zerg_War\\Story\\Maintenance_Bay.cs",
               "RelativeToolTip": "Story\\Maintenance_Bay.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAUwKAAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T13:57:22.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T13:57:22.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 4,
+              "Title": "Map.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\Places\\Map.cs",
+              "RelativeDocumentMoniker": "Places\\Map.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\Places\\Map.cs",
+              "RelativeToolTip": "Places\\Map.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwCEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T08:19:53.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Zerg.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\GameObjects\\Zerg.cs",
+              "RelativeDocumentMoniker": "GameObjects\\Zerg.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\GameObjects\\Zerg.cs",
+              "RelativeToolTip": "GameObjects\\Zerg.cs",
+              "ViewState": "AgIAADgCAAAAAAAAAAAUwCsCAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T10:18:34.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Item.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\GameObjects\\Item.cs",
+              "RelativeDocumentMoniker": "GameObjects\\Item.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\GameObjects\\Item.cs",
+              "RelativeToolTip": "GameObjects\\Item.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAA1wLoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T07:16:52.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Battle_System.cs",
               "DocumentMoniker": "E:\\Bot_Zerg_War\\System\\Battle_System.cs",
               "RelativeDocumentMoniker": "System\\Battle_System.cs",
               "ToolTip": "E:\\Bot_Zerg_War\\System\\Battle_System.cs",
               "RelativeToolTip": "System\\Battle_System.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAwwG8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwG8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T10:16:51.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T10:16:51.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Main_Scence.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\_Main_Scence.cs",
+              "RelativeDocumentMoniker": "Story\\_Main_Scence.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\Story\\_Main_Scence.cs",
+              "RelativeToolTip": "Story\\_Main_Scence.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAuwIAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T08:49:39.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SmartCity_ControlGrid.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\SmartCity_ControlGrid.cs",
+              "RelativeDocumentMoniker": "Story\\SmartCity_ControlGrid.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\Story\\SmartCity_ControlGrid.cs",
+              "RelativeToolTip": "Story\\SmartCity_ControlGrid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA6wCAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:55:19.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Zerg_Nest.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Zerg_Nest.cs",
+              "RelativeDocumentMoniker": "Story\\Zerg_Nest.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Zerg_Nest.cs",
+              "RelativeToolTip": "Story\\Zerg_Nest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA6wAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:58:32.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Iven.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\GameObjects\\Iven.cs",
+              "RelativeDocumentMoniker": "GameObjects\\Iven.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\GameObjects\\Iven.cs",
+              "RelativeToolTip": "GameObjects\\Iven.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAuwMQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T07:55:05.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Skyway.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\Story\\Skyway.cs",
+              "RelativeDocumentMoniker": "Story\\Skyway.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\Story\\Skyway.cs",
+              "RelativeToolTip": "Story\\Skyway.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA6wAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T13:58:45.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Bot.cs",
+              "DocumentMoniker": "E:\\Bot_Zerg_War\\GameObjects\\Bot.cs",
+              "RelativeDocumentMoniker": "GameObjects\\Bot.cs",
+              "ToolTip": "E:\\Bot_Zerg_War\\GameObjects\\Bot.cs",
+              "RelativeToolTip": "GameObjects\\Bot.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T02:14:38.756Z"
             },
             {
               "$type": "Document",
@@ -371,8 +353,7 @@
               "RelativeToolTip": "System\\Text_Ex.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAgwC4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T06:58:07.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T06:58:07.738Z"
             },
             {
               "$type": "Document",

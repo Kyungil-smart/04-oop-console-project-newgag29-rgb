@@ -119,3 +119,69 @@ public class Virex_letter : Item
     public override int DEF_Bonus { get; set; } = 0;
     public override int HP_Bonus { get; set; } = 0;
 }
+
+public class Mafia_Boss_Pistol : Item
+{
+    public override string Name { get; set; } = "마피아보스의 권총";
+    public override string Description { get; set; } = "마피아 보스가 무기설계도를 가져와준 댓가로 건네준 권총";
+    public override string Symbol { get; set; } = "MP";
+    public override string Effect_Description { get; set; } = "ATK + 1500, DEF + 1500, HP + 4000";
+    public override int ATK_Bonus { get; set; } = 1500;
+    public override int DEF_Bonus { get; set; } = 1500;
+    public override int HP_Bonus { get; set; } = 4000;
+}
+
+public class Mutant_Heart: Item
+{
+    public override string Name { get; set; } = "돌연변이 저그심장";
+    public override string Description { get; set; } = "산업구역의 저그를 소탕하나 우연히 발견한 특이한구조의 저그심장";
+    public override string Symbol { get; set; } = "MH";
+    public override string Effect_Description { get; set; } = "퀘스트용 아이템";
+    public override int ATK_Bonus { get; set; } = 0;
+    public override int DEF_Bonus { get; set; } = 0;
+    public override int HP_Bonus { get; set; } = 0;
+}
+
+public class Zerg_Claws : Item
+{
+    public override string Name { get; set; } = "저그의 발톱";
+    public override string Description { get; set; } = "산업구역의 을돌아다니다 발견한 저그의 발톱";
+    public override string Symbol { get; set; } = "ZC";
+    public override string Effect_Description { get; set; } = "ATK + 3050, DEF + 500, HP + 1000";
+    public override int ATK_Bonus { get; set; } = 3050;
+    public override int DEF_Bonus { get; set; } = 500;
+    public override int HP_Bonus { get; set; } = 1000;
+}
+
+public class Toxic_Tank : Item
+{
+    public override string Name { get; set; } = "독성탱크";
+    public override string Description { get; set; } = "산업구역의 을돌아다니다 발견한 극독성의 탱크";
+    public override string Symbol { get; set; } = "TT";
+    public override string Effect_Description { get; set; } = "ATK + 3050, DEF + 500, HP + 1000";
+    public override int ATK_Bonus { get; set; } = 3050;
+    public override int DEF_Bonus { get; set; } = 500;
+    public override int HP_Bonus { get; set; } = 1000;
+}
+
+public class Improved_Artificial_Heart : Item
+{
+    public override string Name { get; set; } = "개선된 인공심장";
+    public override string Description { get; set; } = "돌연변이된 저그의 심장을 보고 영삼을얻은 바이렉스가 개발된 신종기계심장";
+    public override string Symbol { get; set; } = "IH";
+    public override string Effect_Description { get; set; } = "ATK + 5050, DEF + 5050, HP + 5050";
+    public override int ATK_Bonus { get; set; } = 5050;
+    public override int DEF_Bonus { get; set; } = 5050;
+    public override int HP_Bonus { get; set; } = 5050;
+}
+
+public class Toxic_Mucosa_Heart : Item
+{
+    public override string Name { get; set; } = "독성점막의 심장";
+    public override string Description { get; set; } = "독성 점막을 모두 뜯어낸후 그것의 코어역할을 하던 조직체";
+    public override string Symbol { get; set; } = "ZH";
+    public override string Effect_Description { get; set; } = "ATK + 9999, DEF + 9999, HP + 9999";
+    public override int ATK_Bonus { get; set; } = 9999;
+    public override int DEF_Bonus { get; set; } = 9999;
+    public override int HP_Bonus { get; set; } = 9999;
+}

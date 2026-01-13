@@ -108,13 +108,131 @@
             }
             if ((int)key.KeyChar - '0' == 3)
             {
-                return "인벤토리";
+                return "바이렉스다이얼로그";
             }
             if ((int)key.KeyChar - '0' == 4)
             {
                 return "디폴트_메인터넌스";
             }
         }
+    }
+
+    public string Virex_dialog(BOT bot, Place place, Iventory iventory)
+    {
+        bool is_MH = false;
+        for (int i = 0; i < Iventory.Iven_Slot.GetLength(0); i++)
+        {
+            for (int j = 0; j < Iventory.Iven_Slot.GetLength(1); j++)
+            {
+                if (Iventory.Iven_Slot[j, i].OnTileItem is Mutant_Heart)
+                {
+                    is_MH = true;
+                }
+            }
+        }
+
+        if (is_MH)
+        {
+            Console.Clear();
+            Print_BYREX();
+            dialog_18("바이렉스 : 이게무엇인가 BOT?");
+            Console.ReadKey(true);
+            dialog_18("BOT : 산업구역을 돌아다니다가 우연히 주은것입니다");
+            Console.ReadKey(true);
+            dialog_18("BOT : 뭔가 제가봐왓던 심장들과는 다르게 독특한 구조를 하고있어 박사님이 좋아하실것 같았습니다");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 : 흐음,,,,");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 박사는 돌연변이 저그심장을 유심히 지켜보다가 갑자기 연구실로 들어갔다");
+            Console.ReadKey(true);
+            dialog_18("그리고 시간이 흐른후");
+            Console.ReadKey(true);
+            dialog_18("연구실에 들어갔던 박사는 독특한 인공심장을 가지고 나왔다");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 : 확실이 자네가 가져온 저그심장의 구조는 독특한것이었어,");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 : 그래서 나는 그 심장의 구조를 보고 아이디어를 얻었네.");
+            Console.ReadKey(true);
+            dialog_18("자, 여기 새로 고안된 인공심장이야 자네에게 장착하면 성능이 배가될걸세");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 박사로부터 개선된 인공심장을 받았다");
+            Console.ReadKey(true);
+
+            Improved_Artificial_Heart improved_Artificial_Heart = new();
+            Iventory.Add(improved_Artificial_Heart);
+            Iventory.Remove<Mutant_Heart>();
+
+            return "디폴트_메인터넌스";
+        }
+
+        if (((Maintenance_Bay)place).Virex_dialog_1 == true)
+        {
+            Console.Clear();
+            Print_BYREX();
+            dialog_18("바이렉스 : 그래서 자네 한번 암시장에 가보는게 어떻겟나?");
+            Console.ReadKey(true);
+            dialog_18("BOT : 네? 암시장이요??");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 : 그렇다 암시장, 거기가서 마피아들과 만나줫으면 해");
+            Console.ReadKey(true);
+            dialog_18("BOT : 마피아 ??? 대체왜 ???");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 박사의 입에서 나온 의외의 말에 BOT은 잠시 말을 잊지 못했다.");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 : 아,  그냥 별거아니네 자네가 할일은 그냥이 USB를 마피아 두목에게 전달하고 거기에따른 댓가를 받아오면되");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 : 그게전부야");
+            Console.ReadKey(true);
+            dialog_18("BOT : 음,, 대체왜 마피아와 거래를 해야하는지는 잘모르겠지만 박사님의 명령이니 따르겠습니다.");
+            Console.ReadKey(true);
+
+            Virex_letter virex_Letter = new Virex_letter();
+            Iventory.Add(virex_Letter);
+            ((Maintenance_Bay)place).Virex_dialog_1 = false;
+            return "디폴트_메인터넌스";
+        }
+
+        if (((Maintenance_Bay)place).Virex_dialog_2 == true)
+        {
+            Console.Clear();
+            Print_BYREX();
+            dialog_18("바이렉스 : 이보게 BOT!");
+            Console.ReadKey(true);
+            dialog_18("BOT : 예 박사님");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 : 자네에게 끝내는 신병기하나를 선물로 주고싶군");
+            Console.ReadKey(true);
+            dialog_18("BOT : 또 이상한 실험적인 병기를 테스트하겠답시고 저를 괴롭힐 생각이신가요?");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 : 아 그건아니야 이건 지금까지 하고는 다르다고");
+            Console.ReadKey(true);
+            dialog_18("BOT : 대체 뭔데요 설명이나 들어봅시다.");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 : 이것은 무기가 아니라 자네의 에너지 순환 그리드를 향상시키는 일종의 나노머신 세트라네");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 : 내가 이 나노머신들을 자네몸속에 주입만 하면 자네의 몸에있는 로봇들의 전반적인 성능이");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 : 두배 세배 이상 껑충 뛰게될것이라네.");
+            Console.ReadKey(true);
+            dialog_18("BOT : 음,,,,,,");
+            Console.ReadKey(true);
+            dialog_18("BOT : 뭐 생각해봐야 제가뭘 어쩌겟습니까 결국 박사님 말하는대로 해야지요");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 : 그래그래 좋은 생각일세");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 박사의 나노머신이 BOT의 체내에 주입되었다.");
+            Console.ReadKey(true);
+            dialog_18("BOT의 체력,방어력,공격력이 모두 500씩 증가되었습니다!");
+            bot.MAX_HP += 500;
+            bot.ATK += 500;
+            bot.DEF += 500;
+            ((Maintenance_Bay)place).Virex_dialog_2 = false;
+            Console.ReadKey(true);
+
+            return "디폴트_메인터넌스";
+        }
+
+        return "디폴트_메인터넌스";
     }
 
     public string Weapon_Change(BOT bot, Place place, Iventory iventory)

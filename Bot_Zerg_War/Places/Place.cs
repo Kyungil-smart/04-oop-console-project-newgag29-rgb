@@ -20,6 +20,11 @@ public class Maintenance_Bay : Place
     string Cur_Func = "첫시작";
     Dictionary<string, All_Stroy.stroy_del> Story_recorder = new();
 
+    public bool Virex_dialog_1 = true;
+    public bool Virex_dialog_2 = true;
+    public bool Virex_dialog_3 = true;
+    public bool Virex_dialog_4 = true;
+
 
     public Maintenance_Bay(string _name, All_Stroy story, Iventory iventory) : base(_name, story, iventory)
     {
@@ -29,6 +34,7 @@ public class Maintenance_Bay : Place
         Story_recorder.Add("인벤토리", story.Iven_Check);
         Story_recorder.Add("장비교체", story.Weapon_Change);
         Story_recorder.Add("바이렉스", story.Virex);
+        Story_recorder.Add("바이렉스다이얼로그", story.Virex_dialog);
         Story_recorder.Add("1번교체", story.First_Weapon);
         Story_recorder.Add("2번교체", story.Second_Weapon);
         Story_recorder.Add("3번교체", story.Third_Weapon);
@@ -65,6 +71,7 @@ public class City_Streets : Place
     public bool Black_market_first = true;
     public bool Suspicious_Building_first = true;
     public bool Mafia_visit = false;
+    public bool Street_Citizens_1 = true;
 
     string Cur_Func = "거리첫방문";
     Dictionary<string, All_Stroy.stroy_del> Story_recorder = new();
@@ -194,14 +201,23 @@ public class Abandoned_Subway_Station : Place
 
 public class Industrial_Zone : Place
 {
-    public override int zergLevel { get; set; } = 0;
+    public override int zergLevel { get; set; } = 35;
     string Cur_Func = "나가기";
     Dictionary<string, All_Stroy.stroy_del> Story_recorder = new();
+
+    public bool Industrial_area_patrol_1 = true;
+    public bool Abandoned_Factory_1 = true;
+    public bool Aberration_battle_1 = true;
+    public bool Torrasque_battle_1 = true;
 
     public Industrial_Zone(string _name, All_Stroy story, Iventory iventory) : base(_name, story, iventory)
     {
         Story_recorder.Add("나가기", story.Location_Out);
         Story_recorder.Add("디폴트_산업구역", story.Industrial_Default);
+        Story_recorder.Add("산업구역순찰", story.Industrial_area_patrol);
+        Story_recorder.Add("폐공장", story.Abandoned_Factory);
+        Story_recorder.Add("변형체", story.Aberration_battle);
+        Story_recorder.Add("토라스크", story.Torrasque_battle);
 
 
         //===================================저그수치_체크===================================

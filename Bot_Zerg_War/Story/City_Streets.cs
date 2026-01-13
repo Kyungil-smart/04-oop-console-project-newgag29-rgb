@@ -39,6 +39,57 @@
         }
     }
 
+    public string Street_Citizens(BOT bot, Place place, Iventory iventory)
+    {
+        if (((City_Streets)place).Street_Citizens_1 == false)
+        {
+            Console.Clear();
+            dialog_18("이미 한번본 이벤트를 다시 볼 필요는 없습니다.");
+            return "디폴트_도시거리";
+        }
+
+        dialog_18("BOT은 예전에 거닐었던 거리를 두리번 두리번 돌아다니고있었다");
+        Console.ReadKey(true);
+        dialog_18("거리는 아직 저그에게 점령되지 않은 상태였다");
+        Console.ReadKey(true);
+        dialog_18("물론 예전처럼 번성하지는 못한 상태였지만.");
+        Console.ReadKey(true);
+        dialog_18("거리의 민심은 딱보기에도 흉흉해보였다");
+        Console.ReadKey(true);
+        dialog_18("이들은 굶주리고 있었다 그것도 당연한것이");
+        Console.ReadKey(true);
+        dialog_18("현대의 도시라는것은 절대 자급자족이 불가능하다");
+        Console.ReadKey(true);
+        dialog_18("좁은공간에 너무나도 많은 인구와 시설들이 밀집되어 있기때문이다");
+        Console.ReadKey(true);
+        dialog_18("외부에서 도시를 향해 꾸준히 물자를 공급해주어야지만 제대로 기능 할 수 있는 구조인것이다.");
+        Console.ReadKey(true);
+        dialog_18("BOT : 누군가 붕괴된 다리를 복구해 줄 수 만 있다면,,,");
+        Console.ReadKey(true);
+        dialog_18("붕괴된 다리, 그것은 저그침공 이전에는 메인라인 고속도로라고 불리었다");
+        Console.ReadKey(true);
+        dialog_18("이도시는 기본적으로 본토에서 떨어져 나와잇는 섬이라서 육지와 교역하려면 육지와 도시를 연결할");
+        Console.ReadKey(true);
+        dialog_18("도시와 육지를 연결할 다리가 필요했다.");
+        Console.ReadKey(true);
+        dialog_18("그리고 메인라인은 도시와 육지를 연결하고 있던 유일한 다리이기도 했다.");
+        Console.ReadKey(true);
+        dialog_18("BOT : 그 다리가 끊어져버렷으니, 물자공급이 원활할리가...");
+        Console.ReadKey(true);
+        dialog_18("물론 반대측면을 생각해보면 메인라인이 끊어진것은 축복이기도 했다");
+        Console.ReadKey(true);
+        dialog_18("왜냐하면 이도시가 저그에 완전히 함락되지 않을수 있었던 이유는 본토하고 떨어져 있는 섬이기 때문이기도 했으니까..");
+        Console.ReadKey(true);
+        dialog_18("만약 지금까지도 메인라인이 연결되어 있었다면?");
+        Console.ReadKey(true);
+        dialog_18("메인라인으로부터 도시로 들어오는것은 각종 생필품을 담은 트럭이 아닌");
+        Console.ReadKey(true);
+        dialog_18("도시사람들을 살육하겟다는 의지만이 가득한 저그무리떼 였을 것이니까..");
+        Console.ReadKey(true);
+
+        return "디폴트_도시거리";
+    }
+
     public string First_street(BOT bot, Place place, Iventory iventory)
     {
         Console.Clear();
@@ -434,7 +485,7 @@ _|____[]____[]____[]____|_
         bool is_letter = false;
         for (int i = 0; i < Iventory.Iven_Slot.GetLength(0); i++)
         {
-            for (int j = 0; j < Iventory.Iven_Slot.GetLength(2); j++)
+            for (int j = 0; j < Iventory.Iven_Slot.GetLength(1); j++)
             {
                 if (Iventory.Iven_Slot[j, i].OnTileItem is Virex_letter)
                 {
@@ -453,24 +504,82 @@ _|____[]____[]____[]____|_
         else
         {
             Console.Clear();
-            dialog_18("확실히 이건 바이렉스 박사의 필체가 맞군...");
+            dialog_18("마피아 : 확실히 이건 바이렉스 박사의 필체가 맞군...");
             Console.ReadKey(true);
-            dialog_18("");
+            dialog_18("마피아 : 들어와, 할 이야기가 많아");
             Console.ReadKey(true);
-            dialog_18("");
+            dialog_18("대체 바이렉스 박사님과 마피아들은 어떤 관계인걸까??");
             Console.ReadKey(true);
-            dialog_18("");
+            dialog_18("마피아 : 너도 알겠지만 현재 이 도시는 저그들의 공습으로 인해 지금당장 몰락해도 이상하지 않을정도야.");
             Console.ReadKey(true);
-            dialog_18("");
+            dialog_18("마피아 : 하지만 저그의 공습때문에 피해를 보는 인간만 있는건 아니란말이지,,");
             Console.ReadKey(true);
-            dialog_18("");
+            dialog_18("네?? 그건 대체 무슨 소리이죠??");
             Console.ReadKey(true);
-            dialog_18("");
+            dialog_18("마피아 : 말그대로야 우리 마피아는 저그 공습덕분에 이익을 취하고있어");
             Console.ReadKey(true);
-            dialog_18("");
+            dialog_18("?!");
             Console.ReadKey(true);
-            dialog_18("");
+            dialog_18("마피아 : 하하,, 놀라기는,,, 애송이답구만,, ");
             Console.ReadKey(true);
+            dialog_18("이거봐, 이친구야 전쟁을 하려면 무기가 필요할거 아니야 총도 필요하고 총알도 필요하고...");
+            Console.ReadKey(true);
+            dialog_18("그러면 그 무기를 누가 만들어서 대고있을까?? 현재 중앙정부마저도 붕괴해버린 마당에");
+            Console.ReadKey(true);
+            dialog_18("각지에 산개되어있는 소규모 민방위 무장조직들에게 누가 무기를 제공하고 있을거 같냔말이야?");
+            Console.ReadKey(true);
+            dialog_18("BOT : 음,,,,");
+            Console.ReadKey(true);
+            dialog_18("BOT : 하지만 그런건 옳지 않아요,, 다른사람의 고통을 통해 이익을 뽑아내는것은...");
+            Console.ReadKey(true);
+            dialog_18("마피아 : 하하하,,, ");
+            Console.ReadKey(true);
+            dialog_18("BOT의 말에 마피아는 가볍게 웃어넘기더니 뒷쪽에 있는 라커 캐비넷에서 최고급 위스크기를 술잔에 담고는 한모금 마셨다");
+            Console.ReadKey(true);
+            dialog_18("마피아 : 순진해,, 너무 순진해,,,");
+            Console.ReadKey(true);
+            dialog_18("마피아 : 이봐, 저그를 이도시로 불러들인게 우리인가?");
+            Console.ReadKey(true);
+            dialog_18("BOT : 아뇨,");
+            Console.ReadKey(true);
+            dialog_18("마피아 : 그럼 우리가 없다면 조그마한 민방위 조직들이 저그에 저항할 무기는 어디서 조달받을 수 있지?");
+            Console.ReadKey(true);
+            dialog_18("BOT : 거기서는 당연히 같은 인류동지로써 무상으로 나눠줘야...");
+            Console.ReadKey(true);
+            dialog_18("마피아 : 그만!");
+            Console.ReadKey(true);
+            dialog_18("마피아 : 난 여기 거래를 하러온거지 도덕선생님을 만나러 온게 아니야");
+            Console.ReadKey(true);
+            dialog_18("마피아 : 바이렉스 박사가 보낸 USB나 어서 넘겨주게");
+            Console.ReadKey(true);
+            dialog_18("BOT : 네,,, 알겠습니다");
+            Console.ReadKey(true);
+            dialog_18("BOT은 마피아 보스에게 바이렉스 박사로부터 받아온 USB를 넘겨주었다.");
+            Console.ReadKey(true);
+            dialog_18("마피아 보스는 USB를 받아들고는 컴퓨터에 꽂았다");
+            Console.ReadKey(true);
+            dialog_18("그러더니 잠시후 모니터에 설계도 같은것들이 보이기 시작했다");
+            Console.ReadKey(true);
+            dialog_18("바이렉스 박사의 최신 무기들에대한 설계도였다");
+            Console.ReadKey(true);
+            dialog_18("마피아 두목 : 과연 바이렉스 박사야,,, 정말 천재적인 설계로군, 또한 독창적이고 말이야");
+            Console.ReadKey(true);
+            dialog_18("BOT : 저기,, 이,,  저 그건,,?");
+            Console.ReadKey(true);
+            dialog_18("마피아 두목 : 아! 돈말하는거지? 여기 받아가");
+            Console.ReadKey(true);
+            dialog_18("BOT은 마피아 두목으로부터 천문학적인 규모의 금액을 받아들었다");
+            Console.ReadKey(true);
+            dialog_18("BOT 아니,,, 어떻게 이런!!");
+            Console.ReadKey(true);
+            dialog_18("마피아 두목 : 볼일 끝났으면 빨리 나가봐 난 지금부터 만나야할 사람이 많아.");
+            Console.ReadKey(true);
+
+            Mafia_Boss_Pistol mafia_Boss_Pistol = new();
+            Iventory.Add(mafia_Boss_Pistol);
+            Iventory.Remove<Virex_letter>();
+
+            return "암시장";
         }
     }
 }
